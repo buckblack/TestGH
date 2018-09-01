@@ -1,0 +1,14 @@
+D:\windowNC\BT_control_dong\BT_control_dong\bin\Debug\BT_control_dong.exe.config
+D:\windowNC\BT_control_dong\BT_control_dong\bin\Debug\BT_control_dong.exe
+D:\windowNC\BT_control_dong\BT_control_dong\bin\Debug\BT_control_dong.pdb
+D:\windowNC\BT_control_dong\BT_control_dong\bin\Debug\Control_dong.dll
+D:\windowNC\BT_control_dong\BT_control_dong\bin\Debug\Control_dong.pdb
+D:\windowNC\BT_control_dong\BT_control_dong\obj\Debug\BT_control_dong.csprojResolveAssemblyReference.cache
+D:\windowNC\BT_control_dong\BT_control_dong\obj\Debug\BT_control_dong.Form1.resources
+D:\windowNC\BT_control_dong\BT_control_dong\obj\Debug\BT_control_dong.Properties.Resources.resources
+D:\windowNC\BT_control_dong\BT_control_dong\obj\Debug\BT_control_dong.csproj.GenerateResource.Cache
+D:\windowNC\BT_control_dong\BT_control_dong\obj\Debug\BT_control_dong.exe
+D:\windowNC\BT_control_dong\BT_control_dong\obj\Debug\BT_control_dong.pdb
+D:\windowNC\BT_control_dong\BT_control_dong\obj\Debug\BT_control_dong.Form2.resources
+D:\windowNC\BT_control_dong\BT_control_dong\bin\Debug\Custom_Control.dll
+D:\windowNC\BT_control_dong\BT_control_dong\bin\Debug\Custom_Control.pdb

@@ -1,0 +1,5 @@
+D:\windowNC\BT_control_dong\Control_dong\bin\Debug\Control_dong.dll
+D:\windowNC\BT_control_dong\Control_dong\bin\Debug\Control_dong.pdb
+D:\windowNC\BT_control_dong\Control_dong\obj\Debug\Control_dong.csprojResolveAssemblyReference.cache
+D:\windowNC\BT_control_dong\Control_dong\obj\Debug\Control_dong.dll
+D:\windowNC\BT_control_dong\Control_dong\obj\Debug\Control_dong.pdb
