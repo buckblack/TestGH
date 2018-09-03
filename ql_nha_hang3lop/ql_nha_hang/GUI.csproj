@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{20AA4453-F942-4C68-8F63-5621EABCCFB2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ql_nha_hang</RootNamespace>
+    <AssemblyName>ql_nha_hang</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BCrypt.Net">
+      <HintPath>..\packages\BCrypt.Net.0.1.0\lib\net35\BCrypt.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GUI_form_dang_nhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_form_dang_nhap.Designer.cs">
+      <DependentUpon>GUI_form_dang_nhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_form_dat_ban.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_form_dat_ban.Designer.cs">
+      <DependentUpon>GUI_form_dat_ban.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_form_doi_mat_khau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_form_doi_mat_khau.Designer.cs">
+      <DependentUpon>GUI_form_doi_mat_khau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_form_goi_mon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_form_goi_mon.Designer.cs">
+      <DependentUpon>GUI_form_goi_mon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_form_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_form_main.Designer.cs">
+      <DependentUpon>GUI_form_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_form_quan_ly.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_form_quan_ly.Designer.cs">
+      <DependentUpon>GUI_form_quan_ly.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_form_thanh_toan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_form_thanh_toan.Designer.cs">
+      <DependentUpon>GUI_form_thanh_toan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_form_thay_doi_so_luong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_form_thay_doi_so_luong.Designer.cs">
+      <DependentUpon>GUI_form_thay_doi_so_luong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_form_thong_ke.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_form_thong_ke.Designer.cs">
+      <DependentUpon>GUI_form_thong_ke.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_form_tra_cuu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_form_tra_cuu.Designer.cs">
+      <DependentUpon>GUI_form_tra_cuu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_IN_HoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_IN_HoaDon.Designer.cs">
+      <DependentUpon>GUI_IN_HoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_IN_MonAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_IN_MonAn.Designer.cs">
+      <DependentUpon>GUI_IN_MonAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report_Hoa_don.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Report_Hoa_don.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report_Mon_an.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Report_Mon_an.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="GUI_form_dang_nhap.resx">
+      <DependentUpon>GUI_form_dang_nhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_form_dat_ban.resx">
+      <DependentUpon>GUI_form_dat_ban.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_form_doi_mat_khau.resx">
+      <DependentUpon>GUI_form_doi_mat_khau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_form_goi_mon.resx">
+      <DependentUpon>GUI_form_goi_mon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_form_main.resx">
+      <DependentUpon>GUI_form_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_form_quan_ly.resx">
+      <DependentUpon>GUI_form_quan_ly.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_form_thanh_toan.resx">
+      <DependentUpon>GUI_form_thanh_toan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_form_thay_doi_so_luong.resx">
+      <DependentUpon>GUI_form_thay_doi_so_luong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_form_thong_ke.resx">
+      <DependentUpon>GUI_form_thong_ke.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_form_tra_cuu.resx">
+      <DependentUpon>GUI_form_tra_cuu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_IN_HoaDon.resx">
+      <DependentUpon>GUI_IN_HoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_IN_MonAn.resx">
+      <DependentUpon>GUI_IN_MonAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Report_Hoa_don.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_Hoa_don.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report_Mon_an.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_Mon_an.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\row-bot-bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slogan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slider-img1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Khongcohinh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BUS\BUS.csproj">
+      <Project>{47ec2e54-ecb3-44a5-82a4-1580cfed6db3}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Custom_Control\Custom_Control.csproj">
+      <Project>{a01d3e36-b4f6-42a5-8d14-6f94cb3e712a}</Project>
+      <Name>Custom_Control</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{159a36bb-708b-4716-a099-87498dc0100f}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loadlaiSach1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\dori.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

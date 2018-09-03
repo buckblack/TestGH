@@ -1,0 +1,4 @@
+D:\windowNC\ql_nha_hang3lop\DTO\bin\Debug\DTO.dll
+D:\windowNC\ql_nha_hang3lop\DTO\bin\Debug\DTO.pdb
+D:\windowNC\ql_nha_hang3lop\DTO\obj\Debug\DTO.dll
+D:\windowNC\ql_nha_hang3lop\DTO\obj\Debug\DTO.pdb

@@ -1,0 +1,9 @@
+D:\windowNC\ql_nha_hang\Custom_Control\obj\Debug\Custom_Control.csprojResolveAssemblyReference.cache
+D:\windowNC\ql_nha_hang\Custom_Control\bin\Debug\Custom_Control.dll
+D:\windowNC\ql_nha_hang\Custom_Control\bin\Debug\Custom_Control.pdb
+D:\windowNC\ql_nha_hang\Custom_Control\obj\Debug\Custom_Control.dll
+D:\windowNC\ql_nha_hang\Custom_Control\obj\Debug\Custom_Control.pdb
+D:\windowNC\ql_nha_hang3lop\Custom_Control\bin\Debug\Custom_Control.dll
+D:\windowNC\ql_nha_hang3lop\Custom_Control\bin\Debug\Custom_Control.pdb
+D:\windowNC\ql_nha_hang3lop\Custom_Control\obj\Debug\Custom_Control.dll
+D:\windowNC\ql_nha_hang3lop\Custom_Control\obj\Debug\Custom_Control.pdb

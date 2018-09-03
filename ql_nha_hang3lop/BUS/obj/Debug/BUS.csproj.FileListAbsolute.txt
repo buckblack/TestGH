@@ -1,0 +1,11 @@
+D:\windowNC\ql_nha_hang3lop\BUS\bin\Debug\BUS.dll
+D:\windowNC\ql_nha_hang3lop\BUS\bin\Debug\BUS.pdb
+D:\windowNC\ql_nha_hang3lop\BUS\bin\Debug\DAL.dll
+D:\windowNC\ql_nha_hang3lop\BUS\bin\Debug\DTO.dll
+D:\windowNC\ql_nha_hang3lop\BUS\bin\Debug\BCrypt.Net.dll
+D:\windowNC\ql_nha_hang3lop\BUS\bin\Debug\DAL.pdb
+D:\windowNC\ql_nha_hang3lop\BUS\bin\Debug\DTO.pdb
+D:\windowNC\ql_nha_hang3lop\BUS\bin\Debug\BCrypt.Net.xml
+D:\windowNC\ql_nha_hang3lop\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+D:\windowNC\ql_nha_hang3lop\BUS\obj\Debug\BUS.dll
+D:\windowNC\ql_nha_hang3lop\BUS\obj\Debug\BUS.pdb

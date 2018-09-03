@@ -1,0 +1,9 @@
+D:\windowNC\ql_nha_hang3lop\DAL\bin\Debug\DAL.dll
+D:\windowNC\ql_nha_hang3lop\DAL\bin\Debug\DAL.pdb
+D:\windowNC\ql_nha_hang3lop\DAL\bin\Debug\BCrypt.Net.dll
+D:\windowNC\ql_nha_hang3lop\DAL\bin\Debug\DTO.dll
+D:\windowNC\ql_nha_hang3lop\DAL\bin\Debug\DTO.pdb
+D:\windowNC\ql_nha_hang3lop\DAL\bin\Debug\BCrypt.Net.xml
+D:\windowNC\ql_nha_hang3lop\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\windowNC\ql_nha_hang3lop\DAL\obj\Debug\DAL.dll
+D:\windowNC\ql_nha_hang3lop\DAL\obj\Debug\DAL.pdb
